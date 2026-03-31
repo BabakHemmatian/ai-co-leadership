@@ -269,7 +269,7 @@ export default function ChatRoom({
             <li className="dark:text-white" style={{ fontWeight: "bold" }}>
               <div>
                 {ready === 3 &&
-                  `The object you will be coming up with creative uses for is: ${currentChat.instruction}`}
+                  `The topic you will be coming up with ideas for is: ${currentChat.instruction}`}
               </div>
             </li>
             {messages
